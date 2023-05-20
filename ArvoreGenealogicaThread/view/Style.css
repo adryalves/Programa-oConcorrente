@@ -1,0 +1,23 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+
+#idLabel{
+    -fx-font-family: 'Roboto', sans-serif;
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-font-style: Italic;
+		-fx-background: linear-gradient(to bottom right, red, black);
+  
+}
+
+#imgPaiMorto, #imgFilho1Morto, #imgNetoMorto, #imgFilho3Morto, #imgFilho2Morto, #imgNeto2Morto, #imgBisnetoMorto{
+	-fx-opacity: 0.6;
+}
+
+#idbotao, #idbotao2{
+	-fx-cursor: Hand;
+
+}
+#idbotao:hover, #idbotao2:hover{
+	-fx-opacity: 0.75;
+}

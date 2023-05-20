@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchor" maxHeight="-Infinity" maxWidth="529.0" minHeight="-Infinity" minWidth="500.0" prefHeight="400.0" prefWidth="529.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.TelaController">
+   <children>
+      <ImageView fx:id="imgfundo" fitHeight="550.0" fitWidth="700.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Arvore%20Genealógica2%20-%20The%20Simpsons.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgPai" fitHeight="74.0" fitWidth="89.0" layoutX="280.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgFilho1" fitHeight="67.0" fitWidth="83.0" layoutX="171.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgFilho2" fitHeight="67.0" fitWidth="83.0" layoutX="286.0" layoutY="228.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgFilho3" fitHeight="67.0" fitWidth="77.0" layoutX="408.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgNeto1" fitHeight="67.0" fitWidth="83.0" layoutX="171.0" layoutY="333.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgNeto2" fitHeight="67.0" fitWidth="83.0" layoutX="283.0" layoutY="333.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgBisneto" fitHeight="67.0" fitWidth="83.0" layoutX="171.0" layoutY="429.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="idLabel" layoutX="21.0" layoutY="131.0" prefHeight="64.0" prefWidth="218.0" style="-fx-text-fill: red; -fx-font-family: Vladimir Script;">
+         <font>
+            <Font name="Vladimir Script" size="43.0" />
+         </font></Label>
+      <ImageView fx:id="imgPaiMorto" fitHeight="74.0" fitWidth="89.0" layoutX="276.0" layoutY="128.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgFilho1Morto" fitHeight="67.0" fitWidth="83.0" layoutX="171.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgFilho2Morto" fitHeight="67.0" fitWidth="83.0" layoutX="283.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgFilho3Morto" fitHeight="67.0" fitWidth="77.0" layoutX="408.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgNetoMorto" fitHeight="67.0" fitWidth="83.0" layoutX="171.0" layoutY="333.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgNeto2Morto" fitHeight="67.0" fitWidth="83.0" layoutX="283.0" layoutY="326.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgBisnetoMorto" fitHeight="67.0" fitWidth="83.0" layoutX="171.0" layoutY="429.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="idPaiAno" layoutX="323.0" layoutY="103.0" prefHeight="27.0" prefWidth="83.0">
+         <font>
+            <Font name="Courier New" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="idFilho1ano" layoutX="121.0" layoutY="212.0" prefHeight="27.0" prefWidth="83.0">
+         <font>
+            <Font name="Courier New" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="idFilho2Ano" layoutX="339.0" layoutY="212.0" prefHeight="27.0" prefWidth="83.0">
+         <font>
+            <Font name="Courier New" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="idFilho3Ano" layoutX="457.0" layoutY="212.0" prefHeight="27.0" prefWidth="83.0">
+         <font>
+            <Font name="Courier New" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="idNeto1Ano" layoutX="98.0" layoutY="311.0" prefHeight="27.0" prefWidth="83.0">
+         <font>
+            <Font name="Courier New" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="idNeto2Ano" layoutX="339.0" layoutY="307.0" prefHeight="27.0" prefWidth="83.0">
+         <font>
+            <Font name="Courier New" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="idBisnetoAno" layoutX="110.0" layoutY="401.0" prefHeight="27.0" prefWidth="83.0">
+         <font>
+            <Font name="Courier New" size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="idbotao" layoutX="31.0" layoutY="206.0" mnemonicParsing="false" onAction="#Iniciar" prefHeight="39.0" prefWidth="78.0" style="-fx-text-fill: white; -fx-background-color: #9400D3; -fx-background-radius: 30; -fx-cursor: pointer;" text="Iniciar">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font></Button>
+      <Button fx:id="idbotao2" layoutX="31.0" layoutY="262.0" mnemonicParsing="false" onAction="#Reiniciar" prefHeight="39.0" prefWidth="78.0" style="-fx-text-fill: white; -fx-background-color: #9400D3; -fx-background-radius: 30; -fx-cursor: pointer;" text="Reiniciar" visible="false">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
