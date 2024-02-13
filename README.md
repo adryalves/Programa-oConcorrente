@@ -3,5 +3,4 @@ Trabalhos da disciplina Programação Concorrente utilizando a linguagem de prog
 Os trabalhos envolvem: <br> <br> 
 1- Árvore genealogica usando fork em c++ <br>
 2- Representação árvore genealógica <br>
-3- Problema do Trem <br>
-4- Jantar dos filósofos - Problema clássico
+3- Jantar dos filósofos - Problema clássico
